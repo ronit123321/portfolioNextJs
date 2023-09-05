@@ -1,0 +1,18 @@
+.motionlist {
+  display: grid;
+  overflow: visible;
+  margin: 0;
+  list-style: none;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 36px;
+  padding: 24px;
+  background: #f4f4f58a;
+  border-radius: 50px;
+  align-items: center;
+  justify-items: center;
+}
+
+.motionitem {
+  border-radius: 100%;
+}
